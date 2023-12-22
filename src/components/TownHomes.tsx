@@ -5,9 +5,9 @@ import ImageComponent from "./FeaturedImageComponent";
 import { useEffect, useState } from "react";
 import Pagination from "./Pagination";
 
-interface SingleFamilyProps {}
+interface SingleFamilyProps { }
 
-export default function SingleFamily({}: SingleFamilyProps) {
+export default function SingleFamily({ }: SingleFamilyProps) {
   const [startingIndex, setStartingIndex] = useState<number>(0);
   const [endingIndex, setEndingIndex] = useState<number>(0);
 
