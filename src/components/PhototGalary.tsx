@@ -1,3 +1,4 @@
+import { photoGallery } from "@/constants"
 import Image from "next/image"
 
 interface PhototGalaryProps{
@@ -15,10 +16,11 @@ export default function PhototGalary({}:PhototGalaryProps ){
             </div>
             <div className=" flex flex-wrap items-center w-full ">
                 {
-                    Array(7).fill(0).map((item,ind)=>{
+                    photoGallery.map((item,ind)=>{
                         return(
-                            <div key={ind} className=" w-[33.3%]  overflow-hidden relative">
-                                <Image className="  scaled-image" unoptimized  alt="image" src={'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC83MmJkZDNjNDc1ZjI0ZWJhODVkNjNmMzVlMTFjNWFiMi5qcGVn/webp/800/600'} width={100} height={100}/>
+                            <div key={ind} className="  w-[33.3%] h-96 overflow-hidden relative">
+                                <Image className="  scaled-image h-96" unoptimized  alt="image" src={item.image} width={100} height={100}/>
+                                <span className=" image-tag absolute top-0 left-0 right-0 bottom-0 text-white font-semibold flex justify-center items-center">{item.title}</span>
                             </div>
                             )
                         })

@@ -154,3 +154,34 @@ export const newsEvents=[
         h1:'Schedule An Appointment'
     },
 ]
+
+export const photoGallery=[
+    {
+        image:'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC83MmJkZDNjNDc1ZjI0ZWJhODVkNjNmMzVlMTFjNWFiMi5qcGVn/webp/800/600',
+        title:'BATHS'
+    },
+    {
+        image:'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC9mYWNjMThkMTQzZjlkYmQzOGM2NzIxZDM5MWUxOWY2Ni5qcGVn/webp/800/600',
+        title:'INTERIORS'
+    },
+    {
+        image:'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC8xYmVmOGZhYmY3MzVlMDRhNTUyYWY4N2M4ODQ1YWY0Ny5qcGVn/webp/800/600',
+        title:'MASTER SUITS'
+    },
+    {
+        image:'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC9mYzQxMGQxYjM0MDEzYjEwMDlkYmViMGI4ZmUyZjgxNi5qcGVn/webp/800/600',
+        title:'TOWNHOMES'
+    },
+    {
+        image:'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC8wZmE3M2Y1Zjg0M2JiNjI1NjY5MTQyNjA2ODhjOTcwNS5qcGVn/webp/800/600',
+        title:'PLANS'
+    },
+    {
+        image:'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC9lZjdmODMzNjUyMjczNDY5ZjhiOWExODVhNDFkMWQwMC5qcGVn/webp/800/600',
+        title:'EXTERIORS'
+    },
+    {
+        image:'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC82MTMxZjNiNzg0OThjZjBmMWY4MzYyZGRkMjc2M2MxNi5qcGVn/webp/800/600',
+        title:'KITCHENS'
+    },
+]
