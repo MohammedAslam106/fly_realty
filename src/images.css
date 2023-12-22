@@ -1,0 +1,83 @@
+#image-box:hover{
+    transform: scale(1.03);
+    transition: all .5s ease;
+}
+
+#bg-image-navbar{
+    background: url('https://s3.amazonaws.com/buildercloud/3ebf8cd41e5c31144729855b18f8d5dc.jpeg');
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    height: 60vh;
+}
+
+#container-1-image-1{
+    background: url('https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC9iZjJhMzJkMjQyODBjMjA3OGRhMTljNzFmYzQ3YmM5OC5qcGVn/webp/1300/1300');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width: 100%;
+    overflow: hidden;
+}
+
+#container-1-image-2{
+    background: url('https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC82NmNmMWRjNjAxYzIzNDE0N2MxOGNmNTA5ZTYwMjYwOS5qcGVn/webp/1300/1300');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width: 100%;
+    overflow: hidden;
+}
+
+#container-4-image-1{
+    background: url('https://www.destinationhomes.com/images/pattern.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width: 100%;
+    overflow: hidden;
+}
+
+#container-4-image-2{
+    background: url('https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC85NjhjZGQyNGU5NmIzNWQwOWZlYjJhMmYxYzU3YzFjYi5qcGVn/webp/1200/1000');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width: 100%;
+    overflow: hidden;
+}
+
+#container-5-image-1{
+    background: url('https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC82NmJjMzBmN2MwMGUzYjBhYThjMWU0YjE2Mjc0OTI5OS5qcGVn/webp/1200/1000');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width: 100%;
+    overflow: hidden;
+}
+
+#container-5-image-2{
+    background: url('https://www.destinationhomes.com/images/pattern.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width: 100%;
+    overflow: hidden;
+}
+
+#container-6-image-2{
+    background: url('https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC8xMDViZmQ1MzU0MGQ5ZTM5M2IxMmZkYWZkNzc2YmY0Yi5qcGVn/webp/1200/1000');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+

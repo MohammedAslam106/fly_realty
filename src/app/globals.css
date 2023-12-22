@@ -2,26 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.menu-toggle {
+    width: 35px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
   }
+  
+  .bar {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transition: transform 0.3s, opacity 0.3s;
+    /* border-radius: 25px; */
+  }
+  
+  .menu-open .bar1 {
+    transform: rotate(25deg) translateY(4px);
+  }
+  
+  .menu-open .bar2 {
+    opacity: 0;
+  }
+  
+  .menu-open .bar3 {
+    transform: rotate(-25deg) translateY(-4px);
+  }
+  
+.menu-open{
+    height: 10px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+#footer{
+  background: url('https://www.destinationhomes.com/images/footer-bg.jpg');
+}
+
+.active{
+  background: #000;
+}
+
+.in-active{
+  background: gray;
+}
+
+
+.scaled-image{
+  width: 100%;
+  transition: transform 0.4s ease;
+  transform-origin: 50% 50%;}
+
+.scaled-image:hover{
+  transform: scale(1.2);
+  width: 100%;
 }
