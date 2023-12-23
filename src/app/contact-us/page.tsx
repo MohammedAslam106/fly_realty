@@ -131,15 +131,31 @@ export default function page({ }: pageProps) {
                     </h1>
                 </div>
             </div>
-            <div className=" overflow-hidden py-32 px-20 gap-3 flex max-lg:px-0 max-lg:flex-col w-full justify-center items-center">
-                <div className=" w-[33.3%] max-lg:w-full overflow-hidden relative">
-                    <Image unoptimized className="scaled-image" width={100} height={100} alt="home" src={'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC84OGZiNGRlNzQyODA2ZTZkODdhY2M3MDQ2NjUwM2Q4ZS5qcGVn/webp/1200/1200'} />
+            <div className=" overflow-hidden py-32 px-20 gap-3 flex md:px-16 max-md:px-10 max-lg:flex-col w-full h-full justify-center items-center">
+                <div className=" w-[33.3%] h-[300px] lg:h-64 max-lg:w-full overflow-hidden relative">
+                    <div className=" photo-gallary w-full h-full relative" style={{
+                        backgroundImage:`url('https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC84OGZiNGRlNzQyODA2ZTZkODdhY2M3MDQ2NjUwM2Q4ZS5qcGVn/webp/1200/1200')`,
+                        backgroundRepeat:'no-repeat', backgroundSize:'100% 120%'
+                        }}>
+                    </div>
+                    <span className=" pointer-events-none absolute top-1/2 text-center w-full font-semibold text-white text-xl flex justify-center items-center ">HOMES</span>
                 </div>
-                <div className=" w-[33.3%] max-lg:w-full  overflow-hidden relative">
-                    <Image unoptimized className="scaled-image" width={100} height={100} alt="home" src={'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC83YmQ3ZmY1MmE4M2VmNjlmZWQ3OGI2M2Q2ZmU0MjE3NC5qcGVn/webp/1200/1200'} />
+                <div className=" w-[33.3%] h-[300px] lg:h-64 max-lg:w-full  overflow-hidden relative">
+                    <div className=" photo-gallary w-full h-full relative" style={{
+                        backgroundImage:`url(https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC83YmQ3ZmY1MmE4M2VmNjlmZWQ3OGI2M2Q2ZmU0MjE3NC5qcGVn/webp/1200/1200)`,
+                        backgroundRepeat:'no-repeat', backgroundSize:'100% 120%'
+                        }}>
+                    </div>
+                    <span className=" pointer-events-none absolute top-1/2 text-center w-full font-semibold text-white text-xl flex justify-center items-center ">HOMES</span>
                 </div>
-                <div className=" w-[33.3%] max-lg:w-full  overflow-hidden relative">
-                    <Image unoptimized className="scaled-image" width={100} height={100} alt="home" src={'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC9lMzViMmQwZDUxYTIzY2FmNmM4MmYyMDMwMDA0MTdkZC5wbmc=/webp/1200/1200'} />
+                <div className=" w-[33.3%] h-[300px] lg:h-64 max-lg:w-full  overflow-hidden relative">
+                <div className=" photo-gallary w-full h-full relative" style={{
+                    backgroundImage:`url('https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC9lMzViMmQwZDUxYTIzY2FmNmM4MmYyMDMwMDA0MTdkZC5wbmc=/webp/1200/1200')`
+                    ,backgroundRepeat:'no-repeat', backgroundSize:'100% 120%'
+                    }}>
+                </div>
+                <span className=" pointer-events-none absolute top-1/2 text-center w-full font-semibold text-white text-xl flex justify-center items-center ">HOMES</span>
+                            
                 </div>
 
             </div>

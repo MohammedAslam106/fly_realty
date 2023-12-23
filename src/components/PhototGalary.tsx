@@ -18,9 +18,12 @@ export default function PhototGalary({ }: PhototGalaryProps) {
                 {
                     photoGallery.map((item, ind) => {
                         return (
-                            <div key={ind} className="  w-[33.3%] h-96 overflow-hidden relative">
-                                <Image className="  scaled-image h-96" unoptimized alt="image" src={item.image} width={100} height={100} />
-                                <span className=" image-tag absolute top-0 left-0 right-0 bottom-0 text-white font-semibold flex justify-center items-center">{item.title}</span>
+                            <div key={ind} className="  w-[33.3%] h-80 overflow-hidden relative">
+                                <div className=" photo-gallary w-full h-full relative" style={{
+                                    backgroundImage:`url(${item.image})`,backgroundRepeat:'no-repeat', backgroundSize:'cover'
+                                    }}>
+                                </div>
+                                <span className=" pointer-events-none absolute top-1/2 text-center w-full font-semibold text-white text-xl flex justify-center items-center ">{item.title}</span>
                             </div>
                         )
                     })

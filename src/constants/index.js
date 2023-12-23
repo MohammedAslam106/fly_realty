@@ -157,7 +157,7 @@ export const newsEvents = [
 
 export const photoGallery = [
     {
-        image: 'https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC83MmJkZDNjNDc1ZjI0ZWJhODVkNjNmMzVlMTFjNWFiMi5qcGVn/webp/800/600',
+        image: `https://dlqxt4mfnxo6k.cloudfront.net/destinationhomes.com/aHR0cHM6Ly9zMy5hbWF6b25hd3MuY29tL2J1aWxkZXJjbG91ZC83MmJkZDNjNDc1ZjI0ZWJhODVkNjNmMzVlMTFjNWFiMi5qcGVn/webp/800/600`,
         title: 'BATHS'
     },
     {
